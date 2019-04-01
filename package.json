@@ -1,6 +1,6 @@
 {
   "name": "influx-firehose-forwarder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple forwarder that acts as an InfluxDB subscriber, forwarding each write to an AWS Firehose stream.",
   "keywords": [
     "influx",
