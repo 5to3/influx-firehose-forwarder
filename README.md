@@ -1,5 +1,8 @@
 # influx-firehose-forwarder
 
+![Travis (.org)](https://img.shields.io/travis/marianzange/influx-firehose-forwarder.svg)
+![npm](https://img.shields.io/npm/v/influx-firehose-forwarder.svg)
+
 A simple forwarder that acts as an InfluxDB subscriber, forwarding each write to an AWS Firehose
 stream. This forwarder is useful if you want to do just in time backups of writes to an InfluxDB.
 It acts as a subscriber that is called by InfluxDB upon every single write. Since InfluxDB retries
