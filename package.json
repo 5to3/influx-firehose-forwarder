@@ -12,6 +12,13 @@
   "bin": {
     "influx-firehose-forwarder": "index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marianzange/influx-firehose-forwarder.git"
+  },
+  "bugs": {
+    "url": "http://github.com/marianzange/influx-firehose-forwarder/issues"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "ava"
