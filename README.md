@@ -23,7 +23,7 @@ If you're running the forwarder on an OS with systemd, you can easily add it as 
 to keep it running and automatically restarting in case of an error. Simply use the following
 example unit as a starting point for your own configuration.
 
-```toml
+```
 [Unit]
 Description=InfluxDB Firehose forwarder
 
