@@ -21,5 +21,5 @@ test('send line to Firehose', async (t) => {
     t.deepEqual(params.Record.Data, expectedData);
   });
 
-  return require('./app').processData(req, res, () => {});
+  return require('.').processData(req, res, () => {});
 });
