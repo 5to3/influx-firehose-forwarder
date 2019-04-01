@@ -57,7 +57,6 @@ const asyncHandler = fn => (req, res, next) => Promise.resolve(fn(req, res)).cat
  */
 const processData = async (req, res, next) => {
   const line = new Buffer.from(`${JSON.stringify(lineToJSON(req.rawBody))}\n`);
-  console.log(`${JSON.stringify(lineToJSON(req.rawBody))}\n`);
   const streamResponse = await firehose
     .putRecord({
       DeliveryStreamName: process.env.FH_DELIVERY_STREAM,
