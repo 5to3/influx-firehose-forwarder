@@ -1,6 +1,6 @@
 {
   "name": "influx-firehose-forwarder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple forwarder that acts as an InfluxDB subscriber, forwarding each write to an AWS Firehose stream.",
   "keywords": [
     "influx",
@@ -27,9 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.404.0",
-    "body": "^5.1.0",
     "express": "^4.16.4",
-    "express-async-handler": "^1.1.4",
     "influx-line-protocol-parser": "^0.2.0"
   },
   "devDependencies": {
@@ -37,7 +35,6 @@
     "aws-sdk-mock": "^4.3.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "proxyquire": "^2.1.0"
+    "eslint-plugin-import": "^2.16.0"
   }
 }
