@@ -20,6 +20,12 @@ The easiest way is to install this package globally through NPM:
 $ npm -i -g influx-firehose-forwarder
 ```
 
+## Running
+
+```bash
+$ FH_DELIVERY_STREAM=test influx-firehose-forwarder
+```
+
 ## How to keep it running
 
 If you're running the forwarder on an OS with systemd, you can easily add it as a unit
@@ -42,6 +48,7 @@ Group=somegroup
 Environment=NODE_ENV=production
 Environment=FH_HOST=localhost
 Environment=FH_PORT=3000
+Environment=FH_DELIVERY_STREAM=test
 
 [Install]
 WantedBy=multi-user.target

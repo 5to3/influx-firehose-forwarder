@@ -3,6 +3,7 @@ import test from 'ava';
 const AWS = require('aws-sdk-mock');
 
 test('send line to Firehose', async (t) => {
+  process.env.FH_DELIVERY_STREAM = 'test';
   const req = { rawBody: 'incubator_sensor1.lab2_unique.1h temp=30i 1554153451000000000' };
   const res = {
     status: (n) => {
