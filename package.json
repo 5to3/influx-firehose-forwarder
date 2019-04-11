@@ -1,6 +1,6 @@
 {
-  "name": "influx-firehose-forwarder",
-  "version": "1.0.3",
+  "name": "@5to3/influx-firehose-forwarder",
+  "version": "1.0.4",
   "description": "A simple forwarder that acts as an InfluxDB subscriber, forwarding each write to an AWS Firehose stream.",
   "keywords": [
     "influx",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marianzange/influx-firehose-forwarder.git"
+    "url": "git://github.com/5to3/influx-firehose-forwarder.git"
   },
   "bugs": {
-    "url": "http://github.com/marianzange/influx-firehose-forwarder/issues"
+    "url": "http://github.com/5to3/influx-firehose-forwarder/issues"
   },
   "scripts": {
     "start": "node index.js",

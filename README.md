@@ -1,6 +1,6 @@
 # influx-firehose-forwarder
 
-![Travis (.org)](https://img.shields.io/travis/marianzange/influx-firehose-forwarder.svg)
+![Travis (.org)](https://img.shields.io/travis/5to3/influx-firehose-forwarder.svg)
 ![npm](https://img.shields.io/npm/v/influx-firehose-forwarder.svg)
 
 A simple forwarder that acts as an InfluxDB subscriber, forwarding each write to an AWS Firehose
