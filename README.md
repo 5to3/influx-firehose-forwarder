@@ -17,7 +17,7 @@ shipping off each measurement to a Firehose stream with S3 backend.
 The easiest way is to install this package globally through NPM:
 
 ```bash
-$ npm -i -g @5to3/influx-firehose-forwarder
+$ npm i -g @5to3/influx-firehose-forwarder
 ```
 
 ## Running
